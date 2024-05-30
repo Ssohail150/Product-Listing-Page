@@ -6,7 +6,7 @@ export default function Modal({ product, onClose }) {
       <div className="bg-white rounded-lg w-4/5 h-4/5 relative z-10 flex flex-col overflow-hidden shadow-lg">
         <button
           onClick={onClose}
-          className="absolute top-2 right-2 text-black-900  rounded-full bg-black p-2 focus:outline-none transition duration-300"
+          className="absolute top-2 right-2 text-black-900  rounded-full bg-white p-2 focus:outline-none transition duration-300"
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
